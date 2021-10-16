@@ -1,0 +1,69 @@
+board:
+  buy_url_cn: N/A
+  buy_url_global: N/A
+  debug_interface: SWD
+  debugger: J-Link
+  description_en: N/A
+  description_zh: N/A
+  emulator_machine: ''
+  large_image: documents/images/tmdsrm48hdk-angled.png
+  name: TMDSRM48HDK
+  price_cn: 1 CNY
+  price_global: 1 USD
+  sale_contact_cn: N/A
+  sale_contact_global: N/A
+  small_image: documents/images/无标题.png
+  vendor: TI
+  version: 1.0.0
+chip:
+  chip_name: RM48L952
+  clock_source: HSE
+  device_vendor: TI
+  family_name: RM48
+  rx_name: PA10
+  series_name: RM48X50
+  source_freq: '8000000'
+  sub_series_name: RM48L
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs: []
+example_projects: []
+features:
+- JTAG
+features_zh:
+- 板载 USB XDS100v2 JTAG 调试
+pkg_type: Board_Support_Packages
+pkg_vendor: xixi
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .config.old
+    - .cproject
+    - .project
+    - .settings
+    - am335x_sk.ewp
+    - am335x_sk.eww
+    - applications
+    - cconfig.h
+    - drivers
+    - HALCoGen
+    - Kconfig
+    - makefile.targets
+    - packages
+    - rm48x50.ld
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files: []
+  project_description: ''
+  project_name: rm48x50
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
